@@ -114,8 +114,8 @@ module "pxe-vm" {
 
   mac_address = "00005e862518"
 
-  cpu_cores = 6
-  memory    = 10240
+  cpu_cores = 4
+  memory    = 8192
 
   disks = [{
     size    = "16G"

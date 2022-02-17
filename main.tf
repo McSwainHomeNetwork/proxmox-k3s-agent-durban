@@ -114,7 +114,7 @@ module "pxe-vm" {
 
   mac_address = "00005e862518"
 
-  cpu_cores = 8
+  cpu_cores = 6
   memory    = 10240
 
   disks = [{
